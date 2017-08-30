@@ -1,0 +1,63 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap";
+
+.bg-white {
+  background-color: red;
+}
+#list {
+  color:red;
+  list-style: none;
+  float: left;
+  text-align: right;
+  display: inline;
+}
+.bg-orange {
+  background-color: #ff5000;
+}
+
+.text-white {
+color: white;
+}
+
+.display-3 {
+  color:white;
+}
+.jumbo {
+    background-color: purple;
+}
+.card-group {
+  text-decoration-color: white;
+}
+.card-title {
+  color: black;
+
+}
+.card-body {
+  background-color: orange;
+}
+
+
+
+.card-text {
+  color: green;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
